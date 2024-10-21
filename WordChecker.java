@@ -1,7 +1,14 @@
 import java.util.ArrayList;
-public class WordChecker {
-    public WordChecker(ArrayList<String> list) {
-        wordList=list;
-        wordList = new ArrayList<String>();
+
+
+public class WordChecker
+{
+    public ArrayList<String> wordList;
+
+
+    public WordChecker()
+    {
+        wordList = new ArrayList<>();
     }
 }
+
