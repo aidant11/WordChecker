@@ -6,9 +6,8 @@ public class WordChecker
     public ArrayList<String> wordList;
 
 
-    public WordChecker()
+    public WordChecker(ArrayList<String> list)
     {
-        wordList = new ArrayList<>();
+        wordList = new ArrayList<String>();
     }
 }
-

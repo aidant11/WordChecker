@@ -4,15 +4,20 @@ import java.util.ArrayList;
 public class Main {
     public static void main(String [] args)
     {
-        WordChecker words = new WordChecker();
+        WordChecker w = new WordChecker(null);
        
-        //ArrayList<String> word = new ArrayList<String>();
+        ArrayList<String> words = new ArrayList<String>();
        
-        words.wordList.add("an");
-        words.wordList.add("band");
-        words.wordList.add("band");
-        words.wordList.add("abandon");
-        System.out.println();
+        words.add("an");
+        words.add("band");
+        words.add("band");
+        words.add("abandon");
+
+        System.out.println(words);
+        WordChecker x = new WordChecker(words);
+        for (int i = 1; i < words.size(); i++) {
+        String after = words.get(i);
+        String before = words.get(i-1);
+        }   
     }
 }
-
