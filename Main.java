@@ -15,9 +15,7 @@ public class Main {
 
         System.out.println(words);
         WordChecker x = new WordChecker(words);
-        for (int i = 1; i < words.size(); i++) {
-        String after = words.get(i);
-        String before = words.get(i-1);
-        }   
+        System.out.println(x.isWordChain());
+        
     }
 }
